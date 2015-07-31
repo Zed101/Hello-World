@@ -2,13 +2,8 @@
 public class AvionU {
 
 	public static void main(String[] args) {
-		// Implementirati kod koji određuje u koliko sati i minuta avion slijeće
-		// na aerodrom ukoliko
-		// vam je poznato u koliko sati i minuta avion uzlijeće i koliko minuta
-		// bude u letu. Avion
-		// uzlijeće i slijeće u istoj vremenskoj zoni.
-
-		int satp =11;
+		
+		int satp = 11;
 		int minp = 23;
 		int minl = 60;
 
@@ -21,11 +16,9 @@ public class AvionU {
 		int min = ukupnomin % 60;
 		if (sat > 23) {
 			System.out.println("Avion slijece u " + (sat - 24) + ":" + min);
+		} else {
+			System.out.println("Avion slijece u " + sat + ":" + min);
+
 		}
-		else{
-		System.out.println( "Avion slijece u " + sat + ":" + min);
-		
-
-		}}}
-
-
+	}
+}
